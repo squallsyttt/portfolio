@@ -1,40 +1,40 @@
+import dailydotdevIcon from "@/assets/social/dailydotdev.webp";
+import githubIcon from "@/assets/social/github.webp";
+import linkedinIcon from "@/assets/social/linkedin.webp";
+import xIcon from "@/assets/social/x.webp";
+import youtubeIcon from "@/assets/social/youtube.webp";
+
 import type { SocialLink } from "../types/social-links";
 
 export const SOCIAL_LINKS: SocialLink[] = [
   {
-    icon: "https://assets.chanhdai.com/images/link-icons/liquid-glass/linkedin.webp",
+    icon: linkedinIcon.src,
     title: "LinkedIn",
-    description: "ncdai",
-    href: "https://linkedin.com/in/ncdai",
+    description: "Griffith",
+    href: "",
   },
   {
-    icon: "https://assets.chanhdai.com/images/link-icons/liquid-glass/github.webp",
+    icon: githubIcon.src,
     title: "GitHub",
-    description: "ncdai",
-    href: "https://github.com/ncdai",
+    description: "Griffith",
+    href: "",
   },
   {
-    icon: "https://assets.chanhdai.com/images/link-icons/liquid-glass/x.webp",
+    icon: xIcon.src,
     title: "X",
-    description: "@iamncdai",
-    href: "https://x.com/iamncdai",
+    description: "Griffith",
+    href: "",
   },
   {
-    icon: "https://assets.chanhdai.com/images/link-icons/liquid-glass/dailydotdev.webp",
+    icon: dailydotdevIcon.src,
     title: "daily.dev",
-    description: "@ncdai",
-    href: "https://app.daily.dev/ncdai",
+    description: "Griffith",
+    href: "",
   },
   {
-    icon: "https://assets.chanhdai.com/images/link-icons/liquid-glass/zalo.webp",
-    title: "Zalo",
-    description: "Quaric",
-    href: "https://zalo.me/2353934240045322830",
-  },
-  {
-    icon: "https://assets.chanhdai.com/images/link-icons/liquid-glass/youtube.webp",
+    icon: youtubeIcon.src,
     title: "YouTube",
-    description: "@ncdai",
-    href: "https://www.youtube.com/@ncdai",
+    description: "Griffith",
+    href: "",
   },
 ];
