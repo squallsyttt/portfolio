@@ -59,9 +59,7 @@ function ChanhDaiMarkMotion() {
   );
 }
 
-const calcDistance = (el: HTMLElement) => {
-  const rect = el.getBoundingClientRect();
-  const scrollTop = document.documentElement.scrollTop;
-  const headerHeight = 56;
-  return scrollTop + rect.top + rect.height - headerHeight;
-};
+function calcDistance(element: HTMLElement) {
+  const rect = element.getBoundingClientRect();
+  return rect.top + window.scrollY + rect.height / 2;
+}

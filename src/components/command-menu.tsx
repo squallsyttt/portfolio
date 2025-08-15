@@ -53,7 +53,7 @@ type CommandLinkItem = {
 
 const MENU_LINKS: CommandLinkItem[] = [
   {
-    title: "Daifolio",
+    title: "Griffithfolio",
     href: "/",
     icon: ChanhDaiMark,
   },
@@ -238,7 +238,7 @@ export function CommandMenu({ posts }: { posts: Post[] }) {
           <CommandSeparator />
 
           <CommandLinkGroup
-            heading="Daifolio"
+            heading="Griffithfolio"
             links={DAIFOLIO_LINKS}
             onLinkSelect={handleOpenLink}
           />
@@ -274,10 +274,7 @@ export function CommandMenu({ posts }: { posts: Post[] }) {
           <CommandGroup heading="Brand Assets">
             <CommandItem
               onSelect={() => {
-                handleCopyText(
-                  getMarkSVG(resolvedTheme === "light" ? "#000" : "#fff"),
-                  "Copied Mark as SVG"
-                );
+                handleCopyText(getMarkSVG(), "Copied Mark as SVG");
               }}
             >
               <ChanhDaiMark />

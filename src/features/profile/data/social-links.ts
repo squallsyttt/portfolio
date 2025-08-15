@@ -17,7 +17,7 @@ export const SOCIAL_LINKS: SocialLink[] = [
     icon: githubIcon.src,
     title: "GitHub",
     description: "Griffith",
-    href: "",
+    href: "https://github.com/squallsyttt",
   },
   {
     icon: xIcon.src,
