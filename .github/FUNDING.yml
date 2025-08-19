@@ -1,1 +1,3 @@
+# GitHub 赞助信息现在统一在 src/config/personal.ts 中管理
+# GitHub sponsorship info is now managed in src/config/personal.ts
 github: ncdai

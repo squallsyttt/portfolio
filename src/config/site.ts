@@ -1,18 +1,20 @@
-import { USER } from "@/data/user";
+import {
+  REPOSITORY_INFO,
+  THEME_CONFIG,
+  USER,
+  UTM_PARAMS as PERSONAL_UTM_PARAMS,
+} from "@/config/personal";
 import type { NavItem } from "@/types/nav";
 
 export const SITE_INFO = {
   name: USER.displayName,
-  url: process.env.APP_URL || "https://chanhdai.com",
+  url: process.env.APP_URL || REPOSITORY_INFO.currentProject.homepage,
   ogImage: USER.ogImage,
   description: USER.bio,
   keywords: USER.keywords,
 };
 
-export const META_THEME_COLORS = {
-  light: "#ffffff",
-  dark: "#09090b",
-};
+export const META_THEME_COLORS = THEME_CONFIG.metaThemeColors;
 
 export const MAIN_NAV: NavItem[] = [
   {
@@ -29,11 +31,8 @@ export const MAIN_NAV: NavItem[] = [
   },
 ];
 
-export const SOURCE_CODE_GITHUB_REPO = "ncdai/chanhdai.com";
-export const SOURCE_CODE_GITHUB_URL = "https://github.com/ncdai/chanhdai.com";
+export const SOURCE_CODE_GITHUB_REPO =
+  REPOSITORY_INFO.currentProject.githubRepo;
+export const SOURCE_CODE_GITHUB_URL = REPOSITORY_INFO.currentProject.githubUrl;
 
-export const UTM_PARAMS = {
-  utm_source: "chanhdai.com",
-  utm_medium: "portfolio_website",
-  utm_campaign: "referral",
-};
+export const UTM_PARAMS = PERSONAL_UTM_PARAMS;

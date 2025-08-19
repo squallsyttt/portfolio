@@ -3,7 +3,7 @@ import { USER } from "@/data/user";
 import { cn } from "@/lib/utils";
 import { FlipSentences } from "@/registry/flip-sentences";
 
-import { PronounceMyName } from "./pronounce-my-name";
+// import { PronounceMyName } from "./pronounce-my-name"; // 语音发音功能已禁用
 import { VerifiedIcon } from "./verified-icon";
 
 export function ProfileHeader() {
@@ -56,15 +56,7 @@ export function ProfileHeader() {
             <SimpleTooltip content="Verified">
               <VerifiedIcon className="size-[0.6em] translate-y-px text-info" />
             </SimpleTooltip>
-            {USER.namePronunciationUrl && (
-              <>
-                &nbsp;
-                <PronounceMyName
-                  className="translate-y-px"
-                  namePronunciationUrl={USER.namePronunciationUrl}
-                />
-              </>
-            )}
+            {/* 语音发音功能已禁用 */}
           </h1>
 
           <div className="h-12 border-t border-edge py-1 pl-4 sm:h-auto">

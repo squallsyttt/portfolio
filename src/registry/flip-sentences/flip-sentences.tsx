@@ -11,7 +11,7 @@ export function FlipSentences({
   sentences,
 }: {
   className?: string;
-  sentences: string[];
+  sentences: readonly string[];
 }) {
   const [currentSentence, setCurrentSentence] = useState(0);
 

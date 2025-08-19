@@ -1,5 +1,6 @@
 import { RssIcon } from "lucide-react";
 
+import { SOCIAL_MEDIA } from "@/config/personal";
 import { SITE_INFO, SOURCE_CODE_GITHUB_URL } from "@/config/site";
 import { cn } from "@/lib/utils";
 
@@ -17,11 +18,11 @@ export function SiteFooter() {
           Built by{" "}
           <a
             className="link"
-            href="https://x.com/iamncdai"
+            href={SOCIAL_MEDIA.twitter.profile}
             target="_blank"
             rel="noopener"
           >
-            ncdai
+            {SOCIAL_MEDIA.github.username}
           </a>
           . The source code is available on{" "}
           <a

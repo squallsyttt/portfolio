@@ -1,4 +1,5 @@
 {
+  "_comment": "个人信息现在统一在 src/config/personal.ts 中管理 / Personal info is now centrally managed in src/config/personal.ts",
   "name": "chanhdai.com",
   "version": "0.1.0",
   "description": "A minimal portfolio, component registry, and blog.",
