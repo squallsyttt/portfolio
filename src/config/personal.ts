@@ -21,8 +21,9 @@ export const PERSONAL_INFO = {
   pronouns: "he/him",
 
   // 联系方式 / Contact Information
-  email: "ZGFpQGNoYW5oZGFpLmNvbQ==", // base64 encoded: dai@chanhdai.com
-  phoneNumber: "Kzg0Nzc3ODg4MTQ4", // E.164 format, base64 encoded
+  email: "MzkwMjM5MTc4c3l0dHRAZ21haWwuY29t", // base64 encoded: 390239178syttt@gmail.com
+  phoneNumber: "Kzg2MTgwMTk2Mzg4MDM=", // E.164 format, base64 encoded: +8618019638803
+  phoneNumberUK: "KzQ0NzUxMzYxNzUzMQ==", // E.164 format, base64 encoded: +447513617531
   address: "Nantong,JiangSu,China",
 
   // 简介信息 / Bio Information

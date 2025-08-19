@@ -5,7 +5,7 @@ import { USER } from "@/data/user";
 import { About } from "@/features/profile/components/about";
 import { Awards } from "@/features/profile/components/awards";
 import { Blog } from "@/features/profile/components/blog";
-import { Brand } from "@/features/profile/components/brand";
+// import { Brand } from "@/features/profile/components/brand"; // Brand模块已移除
 import { Certifications } from "@/features/profile/components/certifications";
 import { Experiences } from "@/features/profile/components/experiences";
 import { Overview } from "@/features/profile/components/overview";
@@ -58,8 +58,7 @@ export default function Page() {
         <Certifications />
         <Separator />
 
-        <Brand />
-        <Separator />
+        {/* Brand模块已移除 */}
       </div>
     </>
   );
