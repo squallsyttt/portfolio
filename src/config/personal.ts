@@ -24,7 +24,7 @@ export const PERSONAL_INFO = {
   email: "MzkwMjM5MTc4c3l0dHRAZ21haWwuY29t", // base64 encoded: 390239178syttt@gmail.com
   phoneNumber: "Kzg2MTgwMTk2Mzg4MDM=", // E.164 format, base64 encoded: +8618019638803
   phoneNumberUK: "KzQ0NzUxMzYxNzUzMQ==", // E.164 format, base64 encoded: +447513617531
-  address: "Nantong,JiangSu,China",
+  address: "Nantong, Jiangsu, China",
 
   // 简介信息 / Bio Information
   bio: "chill dude",
@@ -63,17 +63,17 @@ I'm currently expanding my business internationally and actively seeking new opp
 // 职业信息 / Professional Information
 // ========================================
 export const PROFESSIONAL_INFO = {
-  jobTitle: "Design Engineer",
+  jobTitle: "Senior PHP Engineer",
   jobs: [
     {
-      title: "Senior Frontend Developer & UI Design Lead",
-      company: "Simplamo",
-      website: "https://simplamo.com?ref=IN-926722",
+      title: "Senior PHP Engineer",
+      company: "Jiangsu Jiuyi Network Technology",
+      website: "https://jy91.com",
     },
     {
-      title: "Founder",
-      company: "Quaric",
-      website: "https://quaric.com",
+      title: "Freelance Developer",
+      company: "Independent",
+      website: "",
     },
   ],
 } as const;
@@ -83,27 +83,15 @@ export const PROFESSIONAL_INFO = {
 // ========================================
 export const WEBSITE_INFO = {
   // 主域名 / Primary Domain
-  primaryDomain: "https://chanhdai.com",
+  primaryDomain: "https://griffithfolio.vercel.app",
 
   // 其他域名 / Other Domains
-  otherWebsites: [
-    "https://dai.ng",
-    "https://dai.so",
-    "https://d.io.vn",
-    "https://d.id.vn",
-    "https://dai.io.vn",
-    "https://dai.id.vn",
-    "https://chanhdai.io.vn",
-    "https://chanhdai.id.vn",
-    "https://ncdai.vn",
-    "https://ncdai.net",
-    "https://dai.is-a.dev",
-  ],
+  otherWebsites: [],
 
   // 资源链接 / Asset Links
-  avatar: "https://assets.chanhdai.com/images/chanhdai-avatar-ghibli.jpeg",
-  ogImage: "https://assets.chanhdai.com/images/screenshot-og-image-dark.png",
-  // namePronunciationUrl: "https://assets.chanhdai.com/audio/chanhdai.mp3", // 已禁用语音发音功能
+  avatar: "/images/avatar.jpg",
+  ogImage: "/images/og-image.png",
+  // namePronunciationUrl: "", // 已禁用语音发音功能
 } as const;
 
 // ========================================
@@ -111,12 +99,12 @@ export const WEBSITE_INFO = {
 // ========================================
 export const SOCIAL_MEDIA = {
   github: {
-    username: "ncdai",
-    profile: "https://github.com/ncdai",
+    username: "griffithsyt",
+    profile: "https://github.com/griffithsyt",
   },
   twitter: {
-    username: "iamncdai",
-    profile: "https://x.com/iamncdai",
+    username: "griffithsyt",
+    profile: "https://x.com/griffithsyt",
   },
   // 可以根据需要添加更多社交媒体
   // Add more social media platforms as needed
@@ -128,29 +116,29 @@ export const SOCIAL_MEDIA = {
 export const REPOSITORY_INFO = {
   // 当前项目仓库 / Current Project Repository
   currentProject: {
-    name: "chanhdai.com",
-    description: "A minimal portfolio, component registry, and blog.",
-    githubRepo: "ncdai/chanhdai.com",
-    githubUrl: "https://github.com/ncdai/chanhdai.com",
-    homepage: "https://chanhdai.com",
+    name: "griffithfolio",
+    description: "Griffith's Portfolio - Full Stack PHP Developer",
+    githubRepo: "griffithsyt/portfolio",
+    githubUrl: "https://github.com/griffithsyt/portfolio",
+    homepage: "https://griffithfolio.vercel.app",
   },
 
   // 作者信息 (用于 package.json) / Author Info (for package.json)
   author: {
-    name: "Nguyen Chanh Dai",
-    email: "dai@chanhdai.com",
-    url: "https://github.com/ncdai",
+    name: "Griffith Syt",
+    email: "390239178syttt@gmail.com",
+    url: "https://github.com/griffithsyt",
   },
 
   // GitHub 赞助 / GitHub Sponsorship
-  githubSponsor: "ncdai",
+  githubSponsor: "griffithsyt",
 } as const;
 
 // ========================================
 // UTM 参数配置 / UTM Parameters Configuration
 // ========================================
 export const UTM_PARAMS = {
-  utm_source: "chanhdai.com",
+  utm_source: "griffithfolio.vercel.app",
   utm_medium: "portfolio_website",
   utm_campaign: "referral",
 } as const;
