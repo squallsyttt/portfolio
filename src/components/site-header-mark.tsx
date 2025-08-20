@@ -38,9 +38,7 @@ function ChanhDaiMarkMotion() {
   }, []);
 
   return (
-    <motion.svg
-      xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 512 256"
+    <motion.div
       initial={{
         opacity: 0,
         transform: "translateY(8px)",
@@ -50,12 +48,10 @@ function ChanhDaiMarkMotion() {
         transform: visible ? "translateY(0px)" : "translateY(8px)",
       }}
       transition={{ duration: 0.3 }}
+      className="text-lg font-bold"
     >
-      <path
-        d="M192 256H64v-64h128v64ZM448 64H320v128h128v64H256V0h192v64ZM64 192H0V64h64v128ZM512 192h-64V64h64v128ZM192 64H64V0h128v64Z"
-        fill="currentColor"
-      />
-    </motion.svg>
+      Griffith
+    </motion.div>
   );
 }
 

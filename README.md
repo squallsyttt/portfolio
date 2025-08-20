@@ -4,7 +4,7 @@ A minimal portfolio, component registry, and blog to showcase my work as a Desig
 
 Check out the live site: [chanhdai.com](https://chanhdai.com)
 
-<a href="https://frogdr.com/chanhdai.com?via=ncdai&utm_source=chanhdai.com">
+<a href="https://frogdr.com/chanhdai.com?via=squallsyttt&utm_source=chanhdai.com">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://frogdr.com/chanhdai.com/badge-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="https://frogdr.com/chanhdai.com/badge-white.svg">
@@ -67,7 +67,7 @@ You're free to use my code! Just make sure to <ins>remove all my personal inform
 
 ## Star History
 
-[![Star History](https://starchart.cc/ncdai/chanhdai.com.svg?variant=adaptive)](https://starchart.cc/ncdai/chanhdai.com)
+[![Star History](https://starchart.cc/squallsyttt/portfolio.svg?variant=adaptive)](https://starchart.cc/squallsyttt/portfolio)
 
 ## Acknowledgments
 
@@ -84,6 +84,6 @@ You're free to use my code! Just make sure to <ins>remove all my personal inform
 
 ## GitAds Sponsored
 
-[![Sponsored by GitAds](https://gitads.dev/v1/ad-serve?source=ncdai/chanhdai.com@github)](https://gitads.dev/v1/ad-track?source=ncdai/chanhdai.com@github)
+[![Sponsored by GitAds](https://gitads.dev/v1/ad-serve?source=squallsyttt/portfolio@github)](https://gitads.dev/v1/ad-track?source=squallsyttt/portfolio@github)
 
 <!-- GitAds-Verify: QICCAB4PFWV9MHUGPGPN5B2I8SAXLAOK -->

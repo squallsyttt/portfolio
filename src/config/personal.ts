@@ -99,8 +99,8 @@ export const WEBSITE_INFO = {
 // ========================================
 export const SOCIAL_MEDIA = {
   github: {
-    username: "griffithsyt",
-    profile: "https://github.com/griffithsyt",
+    username: "squallsyttt",
+    profile: "https://github.com/squallsyttt",
   },
   twitter: {
     username: "griffithsyt",
@@ -118,8 +118,8 @@ export const REPOSITORY_INFO = {
   currentProject: {
     name: "griffithfolio",
     description: "Griffith's Portfolio - Full Stack PHP Developer",
-    githubRepo: "griffithsyt/portfolio",
-    githubUrl: "https://github.com/griffithsyt/portfolio",
+    githubRepo: "squallsyttt/portfolio",
+    githubUrl: "https://github.com/squallsyttt/portfolio",
     homepage: "https://griffithfolio.vercel.app",
   },
 
@@ -127,11 +127,11 @@ export const REPOSITORY_INFO = {
   author: {
     name: "Griffith Syt",
     email: "390239178syttt@gmail.com",
-    url: "https://github.com/griffithsyt",
+    url: "https://github.com/squallsyttt",
   },
 
   // GitHub 赞助 / GitHub Sponsorship
-  githubSponsor: "griffithsyt",
+  githubSponsor: "squallsyttt",
 } as const;
 
 // ========================================
