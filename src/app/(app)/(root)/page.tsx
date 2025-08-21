@@ -3,7 +3,6 @@ import type { ProfilePage as PageSchema, WithContext } from "schema-dts";
 
 import { USER } from "@/data/user";
 import { About } from "@/features/profile/components/about";
-import { Awards } from "@/features/profile/components/awards";
 import { Blog } from "@/features/profile/components/blog";
 // import { Brand } from "@/features/profile/components/brand"; // Brand模块已移除
 import { Certifications } from "@/features/profile/components/certifications";
@@ -50,9 +49,6 @@ export default function Page() {
         <Separator />
 
         <Projects />
-        <Separator />
-
-        <Awards />
         <Separator />
 
         <Certifications />

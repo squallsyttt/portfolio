@@ -91,11 +91,6 @@ const DAIFOLIO_LINKS: CommandLinkItem[] = [
     icon: Icons.project,
   },
   {
-    title: "Honors & Awards",
-    href: "/#awards",
-    icon: Icons.award,
-  },
-  {
     title: "Certifications",
     href: "/#certs",
     icon: Icons.certificate,

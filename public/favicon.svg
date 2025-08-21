@@ -1,0 +1,13 @@
+<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <!-- 太极图外圆 -->
+  <circle cx="32" cy="32" r="30" fill="white" stroke="#333" stroke-width="2"/>
+  
+  <!-- 黑色半圆 -->
+  <path d="M 32 2 A 30 30 0 0 1 32 62 A 15 15 0 0 1 32 32 A 15 15 0 0 0 32 2 z" fill="black"/>
+  
+  <!-- 白色小圆点 -->
+  <circle cx="32" cy="17" r="5" fill="white"/>
+  
+  <!-- 黑色小圆点 -->
+  <circle cx="32" cy="47" r="5" fill="black"/>
+</svg>
