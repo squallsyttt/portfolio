@@ -9,6 +9,12 @@ import { ChanhDaiMark } from "./chanhdai-mark";
 
 export function SiteHeaderMark() {
   const pathname = usePathname();
+
+  // 在blog和components页面不显示mark
+  if (pathname.startsWith("/blog") || pathname.startsWith("/components")) {
+    return null;
+  }
+
   return pathname === "/" ? <ChanhDaiMarkMotion /> : <ChanhDaiMark />;
 }
 

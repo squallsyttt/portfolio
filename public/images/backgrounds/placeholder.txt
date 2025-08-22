@@ -1,0 +1,9 @@
+# 背景图片目录
+
+将你的背景图片放在这个目录下，然后在 src/config/personal.ts 中的 WEBSITE_INFO.coverImage 配置路径。
+
+例如：
+- 将图片 cyberpunk-bg.jpg 放在此目录
+- 配置路径为："/images/backgrounds/cyberpunk-bg.jpg"
+
+支持的图片格式：jpg, jpeg, png, webp, svg

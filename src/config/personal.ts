@@ -90,6 +90,8 @@ export const WEBSITE_INFO = {
   avatar:
     "https://avatars.githubusercontent.com/u/29891953?s=400&u=80331099bee0df9f5f9f62bf3be1195afb867906&v=4",
   ogImage: "/images/og-image.png",
+  // 背景图配置 / Background Image Configuration
+  coverImage: "/images/backgrounds/cyber.jpeg", // 暂时留空，添加图片后设置路径，如："/images/backgrounds/your-image.jpg"
   // namePronunciationUrl: "", // 已禁用语音发音功能
 } as const;
 
