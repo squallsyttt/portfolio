@@ -1,19 +1,19 @@
 {
   "_comment": "个人信息现在统一在 src/config/personal.ts 中管理 / Personal info is now centrally managed in src/config/personal.ts",
-  "name": "chanhdai.com",
-  "version": "0.1.0",
-  "description": "A minimal portfolio, component registry, and blog.",
-  "homepage": "https://chanhdai.com",
+  "name": "griffith-portfolio",
+  "version": "1.0.0",
+  "description": "Griffith's Portfolio - Full Stack Developer's Professional Showcase",
+  "homepage": "https://griffithfolio.vercel.app",
   "license": "MIT",
   "author": {
-    "name": "Nguyen Chanh Dai",
-    "email": "dai@chanhdai.com",
+    "name": "Griffith Syt",
+    "email": "390239178syttt@gmail.com",
     "url": "https://github.com/squallsyttt"
   },
   "contributors": [
     {
-      "name": "Nguyen Chanh Dai",
-      "email": "dai@chanhdai.com",
+      "name": "Griffith Syt",
+      "email": "390239178syttt@gmail.com",
       "url": "https://github.com/squallsyttt"
     }
   ],
