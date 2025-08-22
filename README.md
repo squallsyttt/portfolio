@@ -1,22 +1,6 @@
-# [chanhdai.com](https://chanhdai.com)
+# 个人作品集
 
-A minimal portfolio, component registry, and blog to showcase my work as a Design Engineer.
-
-Check out the live site: [chanhdai.com](https://chanhdai.com)
-
-<a href="https://frogdr.com/chanhdai.com?via=squallsyttt&utm_source=chanhdai.com">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://frogdr.com/chanhdai.com/badge-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://frogdr.com/chanhdai.com/badge-white.svg">
-    <img src="https://frogdr.com/chanhdai.com/badge-white.svg" alt="Monitor your Domain Rating" style="width: auto; height: 40px">
-  </picture>
-</a>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://assets.chanhdai.com/images/screenshot-desktop-dark.webp">
-  <source media="(prefers-color-scheme: light)" srcset="https://assets.chanhdai.com/images/screenshot-desktop-light.webp">
-  <img src="https://assets.chanhdai.com/images/screenshot-desktop-light.webp" alt="Screenshot">
-</picture>
+一个简洁的个人作品集网站，包含博客和组件展示功能。
 
 ## Overview
 
@@ -82,8 +66,4 @@ You're free to use my code! Just make sure to <ins>remove all my personal inform
 - [Fumadocs](https://fumadocs.dev)
 - And many other open-source libraries used in `package.json`
 
-## GitAds Sponsored
-
-[![Sponsored by GitAds](https://gitads.dev/v1/ad-serve?source=squallsyttt/portfolio@github)](https://gitads.dev/v1/ad-track?source=squallsyttt/portfolio@github)
-
-<!-- GitAds-Verify: QICCAB4PFWV9MHUGPGPN5B2I8SAXLAOK -->
+本项目的架构设计和某些功能实现参考了一些优秀的开源作品集项目。
