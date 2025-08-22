@@ -29,7 +29,7 @@ export const PERSONAL_INFO = {
   // 简介信息 / Bio Information
   bio: "chill dude",
   flipSentences: [
-    "Dota2 Player",
+    "Remote Work Enthusiast",
     "Full Stack Engineer",
     "9 years dev experience",
   ],
@@ -46,8 +46,6 @@ As an experienced and reliable developer, I pride myself on being friendly and e
 - **Real-time Communication**: Specialized in private deployment of **Workerman-based socket customer service systems**
 - **Full Stack Development**: Proficient in both frontend and backend technologies
 
-Beyond coding, I'm an avid **Dota2** player and a longtime fan of souls-like games — you could call me an old Assassin's Creed veteran! These gaming experiences have actually enhanced my problem-solving skills and attention to detail in development.
-
 I'm currently expanding my business internationally and actively seeking new opportunities to collaborate with teams worldwide. I believe that great software comes from great teamwork, and I'm always excited to connect with fellow developers and entrepreneurs.
 
 **Let's build something amazing together!** 🚀
@@ -55,7 +53,7 @@ I'm currently expanding my business internationally and actively seeking new opp
 
   // SEO 相关 / SEO Related
   keywords:
-    "griffith, griffith syt, full stack developer, php developer, python developer, wordpress developer, crm systems, workerman socket, dota2 player, china developer, 中国开发者",
+    "griffith, griffith syt, full stack developer, php developer, python developer, wordpress developer, crm systems, workerman socket, remote work, international developer, overseas developer, china developer, 中国开发者, 远程工作, 海外开发",
   dateCreated: "2024-01-01", // YYYY-MM-DD
 } as const;
 

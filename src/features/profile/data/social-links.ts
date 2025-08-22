@@ -11,7 +11,7 @@ export const SOCIAL_LINKS: SocialLink[] = [
     icon: linkedinIcon.src,
     title: "LinkedIn",
     description: "Griffith",
-    href: "",
+    href: "https://www.linkedin.com/in/%E4%B8%80%E9%99%B6-%E5%AD%99-b060482b9/",
   },
   {
     icon: githubIcon.src,
@@ -23,18 +23,18 @@ export const SOCIAL_LINKS: SocialLink[] = [
     icon: xIcon.src,
     title: "X",
     description: "Griffith",
-    href: "",
+    href: "https://x.com/sunyitao3",
   },
-  {
-    icon: dailydotdevIcon.src,
-    title: "daily.dev",
-    description: "Griffith",
-    href: "",
-  },
+  // {
+  //   icon: dailydotdevIcon.src,
+  //   title: "daily.dev",
+  //   description: "Griffith",
+  //   href: "",
+  // },
   {
     icon: youtubeIcon.src,
     title: "YouTube",
     description: "Griffith",
-    href: "",
+    href: "https://www.youtube.com/@%E5%AD%99%E4%B8%80%E9%99%B6",
   },
 ];
