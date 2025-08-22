@@ -28,11 +28,18 @@ export function ProfileHeader() {
             "bg-[repeating-linear-gradient(315deg,var(--pattern-foreground)_0,var(--pattern-foreground)_1px,transparent_0,transparent_50%)] bg-size-[10px_10px] [--pattern-foreground:var(--color-edge)]/56"
           )}
         >
-          <div className="line-clamp-1 font-mono text-xs text-zinc-300 select-none max-sm:hidden dark:text-zinc-800">
-            {"text-3xl "}
-            <span className="inline dark:hidden">text-zinc-950</span>
-            <span className="hidden dark:inline">text-zinc-50</span>
-            {" font-medium"}
+          <div className="line-clamp-1 select-none max-sm:hidden">
+            <div className="animate-pulse font-mono text-xs tracking-widest uppercase">
+              <span className="text-cyan-400 drop-shadow-[0_0_8px_rgba(0,255,255,0.8)]">
+                FULL
+              </span>
+              <span className="mx-1 text-yellow-400 drop-shadow-[0_0_8px_rgba(255,255,0,0.8)]">
+                STACK
+              </span>
+              <span className="text-pink-400 drop-shadow-[0_0_8px_rgba(255,0,255,0.8)]">
+                DEVELOPER
+              </span>
+            </div>
           </div>
         </div>
 
