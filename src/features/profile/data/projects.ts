@@ -2,6 +2,49 @@ import type { Project } from "../types/projects";
 
 export const PROJECTS: Project[] = [
   {
+    id: "crm-admin-system",
+    title: "CRM Admin System",
+    period: {
+      start: "2020",
+      end: "2023",
+    },
+    link: "https://crm-admin-kappa.vercel.app/login",
+    skills: [
+      "Customer Management",
+      "Contract Module",
+      "Opportunity Module",
+      "Admin Dashboard",
+      "Production System",
+      "Enterprise Solution",
+    ],
+    description: `🏢 **Enterprise CRM Management System**
+
+🔗 **[View Live Demo →](https://crm-admin-kappa.vercel.app/login)**
+
+Comprehensive customer relationship management system built for enterprise operations
+
+**Core Modules:**
+- 👥 **Customer Module** - Complete customer lifecycle management and data tracking
+- 📄 **Contract Module** - Contract creation, management, and renewal tracking
+- 💼 **Opportunity Module** - Sales pipeline management and opportunity tracking
+- 📊 **Admin Dashboard** - Real-time analytics and system administration
+
+**Production Features:**
+- 🔐 **Secure Authentication** - Multi-level user access control
+- 📈 **Real-time Analytics** - Comprehensive business intelligence dashboard
+- 🔄 **Workflow Automation** - Streamlined business processes
+- 📱 **Responsive Design** - Cross-platform compatibility
+
+**Business Impact:**
+- Successfully deployed in production environment
+- Excellent feedback from internal enterprise teams
+- Improved operational efficiency and customer management
+- Scalable architecture supporting business growth
+
+This system has been instrumental in streamlining our enterprise operations and received outstanding internal feedback.`,
+    isExpanded: true,
+  },
+  {
     id: "modern-enterprise-website",
     title: "Modern Enterprise Website",
     period: {
