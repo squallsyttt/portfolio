@@ -6,6 +6,15 @@ const nextConfig: NextConfig = {
   allowedDevOrigins: ["chanhdai-macbook.local"],
   devIndicators: false,
   images: {
+    // 启用图片优化格式
+    formats: ["image/webp", "image/avif"],
+    // 允许的图片尺寸
+    deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048, 3840],
+    imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
+    // 启用危险允许SVG
+    dangerouslyAllowSVG: true,
+    // 内容安全策略
+    contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
     remotePatterns: [
       {
         protocol: "https",

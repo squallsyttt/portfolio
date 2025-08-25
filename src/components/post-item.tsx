@@ -29,9 +29,9 @@ export function PostItem({
             alt={post.metadata.title}
             width={1200}
             height={630}
-            quality={100}
+            quality={80}
             priority={shouldPreloadImage}
-            unoptimized
+            sizes="(max-width: 768px) 100vw, 600px"
           />
 
           <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-black/10 ring-inset dark:ring-white/10" />

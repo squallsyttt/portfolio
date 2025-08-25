@@ -42,3 +42,6 @@ next-env.d.ts
 
 # ncdai
 .ncdai
+
+# optimized images (not needed with Next.js auto-optimization)
+/public/optimized/
