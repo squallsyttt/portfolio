@@ -84,6 +84,51 @@ Project successfully launched and received exceptional client approval, perfectl
     isExpanded: true,
   },
   {
+    id: "crypto-portfolio-dashboard",
+    title: "Cryptocurrency Portfolio Dashboard",
+    period: {
+      start: "2024",
+      end: "2025",
+    },
+    link: "https://crypto-portfolio-dashboard-nine.vercel.app/",
+    skills: [
+      "React Dashboard",
+      "Real-time Data",
+      "Chart.js",
+      "Cryptocurrency API",
+      "Financial Analytics",
+      "Responsive UI/UX",
+    ],
+    description: `💰 **Advanced Cryptocurrency Portfolio Dashboard**
+
+🔗 **[View Live Demo →](https://crypto-portfolio-dashboard-nine.vercel.app/)**
+
+Comprehensive cryptocurrency portfolio tracking and analytics dashboard with real-time market data
+
+**Core Dashboard Features:**
+- 📊 **Real-time Portfolio Tracking** - Live crypto portfolio valuation and performance metrics
+- 📈 **Interactive Charts & Analytics** - Advanced charting with price trends and portfolio distribution
+- 💹 **Market Data Integration** - Real-time cryptocurrency prices and market statistics
+- 🎯 **Performance Metrics** - Profit/loss analysis, ROI calculations, and portfolio optimization insights
+- 📱 **Responsive Dashboard Design** - Optimized for desktop and mobile trading experiences
+
+**Technical Highlights:**
+- ⚡ **Real-time Data Feeds** - WebSocket connections for live cryptocurrency market updates
+- 🎨 **Modern UI Components** - Clean, professional dashboard interface with intuitive navigation
+- 📊 **Advanced Data Visualization** - Interactive charts and graphs for market analysis
+- 🔄 **API Integration** - Seamless connection with cryptocurrency exchange APIs
+- 📱 **Mobile-First Design** - Fully responsive dashboard optimized for all devices
+
+**Business Value:**
+- Provides comprehensive cryptocurrency investment tracking
+- Enables data-driven investment decisions
+- Streamlines portfolio management for crypto investors
+- Professional-grade financial dashboard interface
+
+Perfect for cryptocurrency investors and traders who need professional portfolio management tools.`,
+    isExpanded: true,
+  },
+  {
     id: "coming-soon",
     title: "🚧 More Projects Coming Soon",
     period: {
